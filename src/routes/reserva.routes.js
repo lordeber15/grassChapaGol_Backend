@@ -1,6 +1,9 @@
 const { Router } = require("express");
 const {
-  getReserva, createReserva, deleteReserva, updateReserva
+  getReserva,
+  createReserva,
+  deleteReserva,
+  updateReserva,
 } = require("../controllers/reserva.controller.js");
 const router = Router();
 
